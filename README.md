@@ -42,13 +42,36 @@
 > This is a H1
 > ============
 
-### This is and H1
-
 ***
 
 * 작은 제목: 문서 부제목
 > This is and H2
 > --------------
+
+* 글머리: 1~6까지만 지원
+> # This is a H1
+> ## This is a H2
+> ### This is a H3
+> #### This is a H4
+> ##### This is a H5
+> ###### This is a H6
+
+2.2 BlockQuote
+
+***
+
+이메일에서 사용하는 > 블럭인용문자를 이용합니다.
+
+> This is a first blockqute.
+>   > This is a second blockqute.
+>   >   > This is a third blockqute.
+
+이 안에서는 다른 마크다운 요소를 포함할 수 있습니다.
+
+> code
+
+2.3 목록
+------------------
 
 
 

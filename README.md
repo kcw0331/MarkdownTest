@@ -130,10 +130,10 @@
 >      }
      
 > }
-> <\code>
-> <\pre>
+>  <\code>
+>  <\pre>
 
-> public class BootSpringBootApplication {
+>  public class BootSpringBootApplication {
 >   public static void main(String[] args) {
 >     System.out.println("Hello, Honeymon");
 >   }
@@ -173,8 +173,8 @@
 
  
  
-2.5 수평선 <hr/>
-----------------
+2.5. 수평선 <hr/>
+-----------------
 
 아래 줄은 모두 수평선을 만든것입니다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용합니다.
 
@@ -185,8 +185,8 @@
 ---------------------------
 * 적용예
 
-2.6 링크
-========
+2.6. 링크
+--------
 * 참조링크
 [link keyword][id]
 
@@ -208,7 +208,7 @@ Link: [Google][googlelink]
 * 이메일링크: <address@example.com>
 
 2.7. 강조
-=========
+---------
 
 *single asterisks*
 _single asterisks_
@@ -219,7 +219,7 @@ __double asterisks__
 > 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋습니다.
 
 2.8. 이미지
-==========
+----------
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 
@@ -230,7 +230,7 @@ __double asterisks__
 <img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
 
 2.9. 줄바꿈
-------------
+----------
 3칸 이상 띄어쓰기( )를 하면 줄이 바뀝니다.
 
 * 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸 이상을 띄어쓰기를 해야합니다.   

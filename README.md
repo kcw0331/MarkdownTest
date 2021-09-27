@@ -122,6 +122,119 @@
 ----------------
 코드블럭은 다음과 같이 2가지 방식을 사용할 수 있습니다.
 * <pre><code>{code}</code></pre> 이용방식
-* 
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+     }
+     
+}
+<\code>
+<\pre>
+
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+
+* 코드블럭코드("```")을 이용하는 방법
+
+```
+public class BootSpringBootApplication {
+  public static void main(String[]  args) {
+    System.out.println("Hello, Heneymon");
+  }
+}
+```
+
+public class BootSpringBootApplication  {
+  public static void  main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+
+깃헙에서는 코드블럭코드("```")시작점에 사용하는 언어를 선언하여 문법강조(Syntaxhighlighting)이 가능합니다.
+
+```java
+public class BootStrapBootApplication {
+  public static void  main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+}
+```
+
+public class BootSpringBootApplication  {
+  public static void main(String[] args)  {
+    System.out.println("Hello, Honeymon");
+  }
+}
+
+
+2.5. 수평선 <hr/>
+- - -
+
+아래 줄은 모두 수평선을 만든것입니다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용합니다.
+
+* * *
+***
+*****
+- - -
+---------------------------
+* 적용예
+
+2.6. 링크
+-----------
+* 참조링크
+[link keyword][id]
+
+[id]: URL "Oprional Title here"
+
+// code
+Link: [Google][googlelink]
+
+[googlelink]: http://google.com "Go google"
+
+* 외부링크
+사용문법: [Title](link)
+적용예: [Google](http://google.com, "google link")
+
+* 자동연결
+일반적인 URL 혹은 이메일주소인 경우 적절한 형식으로 링크를 형성합니다.
+
+* 외부링크: <http://example.com/>
+* 이메일링크: <address@example.com>
+
+2.7. 강조
+----------
+
+*single asterisks*
+_single asterisks_
+**double asterisks**
+__double asterisks__
+~~cancelline~~
+
+> 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋습니다.
+
+2.8. 이미지
+-----------
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg "Optional title")
+
+사이즈 조절 기능은 없기 때문에 <img width="" height=""></img>를 이용합니다.
+
+예)
+<img src="/path/to/img.jpg" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img src="/path/to/img.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="RubberDuck"></img>
+
+2.9. 줄바꿈
+------------
+3칸 이상 띄어쓰기( )를 하면 줄이 바뀝니다.
+
+* 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸 이상을 띄어쓰기를 해야합니다.   
+* 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸 이상을 띄어쓰기를 해야 합니다.___\\ 띄어쓰기를 이렇게 해줍니다.
+
+
 
 

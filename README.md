@@ -34,9 +34,9 @@
 ***
 
 # 2. 마크다운 사용방법
-------------------------
+------------------
 2.1 헤더 Headers
-
+---
 ***
 
 * 큰 제목: 문서 제목
@@ -58,7 +58,7 @@
 > ###### This is a H6
 
 2.2 BlockQuote
---------------
+---------------
 
 이메일에서 사용하는 > 블럭인용문자를 이용합니다.
 
@@ -172,8 +172,8 @@ public class BootSpringBootApplication  {
 }
 
 
-2.5. 수평선 <hr/>
-- - -
+2.5 수평선 <hr/>
+================
 
 아래 줄은 모두 수평선을 만든것입니다. 마크다운 문서를 미리보기로 출력할 때 페이지 나누기 용도로 많이 사용합니다.
 
@@ -184,8 +184,8 @@ public class BootSpringBootApplication  {
 ---------------------------
 * 적용예
 
-2.6. 링크
------------
+2.6 링크
+========
 * 참조링크
 [link keyword][id]
 
@@ -207,7 +207,7 @@ Link: [Google][googlelink]
 * 이메일링크: <address@example.com>
 
 2.7. 강조
-----------
+=========
 
 *single asterisks*
 _single asterisks_
@@ -218,7 +218,7 @@ __double asterisks__
 > 문장 중간에 사용할 경우에는 **띄어쓰기** 를 사용하는 것이 좋습니다.
 
 2.8. 이미지
------------
+==========
 ![Alt text](/path/to/img.jpg)
 ![Alt text](/path/to/img.jpg "Optional title")
 

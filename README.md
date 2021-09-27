@@ -220,8 +220,10 @@ __double asterisks__
 
 2.8. 이미지
 ----------
-![Alt text](/path/to/img.jpg)
-![Alt text](/path/to/img.jpg "Optional title")
+> ![Alt text](/path/to/img.jpg)
+> ![Alt text](/path/to/img.jpg "Optional title")
+![a cat](http://icons.iconarchive.com/icons/google/noto-emoji-animals-nature/256/22221-cat-icon.png)
+
 
 사이즈 조절 기능은 없기 때문에 <img width="" height=""></img>를 이용합니다.
 
